@@ -26,7 +26,7 @@ spec:
         app.kubernetes.io/instance: test-component-enzj
     spec:
       containers:
-      - image: quay.io/susdas/test-images:726bb484c8f542d38549c171c2f81224
+      - image: quay.io/susdas/test-images@sha256:e380b3dd3128a43f5a27f1165cc439ad47eeba293d48f35bcb7961622af7b2a9
         name: my-python
         ports:
         - containerPort: 8081
